@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://jirengu-inc.github.io/animating-resume/public/ -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>resume-a-resume</title>
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+</head>
+<style>
+
+html {
+  color: rgb(27, 25, 25); background: rgb(0,43,54);
+}
+
+html{
+  perspective: 1000px;
+}
+.resumeEditor{
+  padding: 2em;
+  margin:1% 20% 0% 20%;
+  background: #ddd;
+  width:60%;
+}
+.resumeEditor h2{
+  display: inline-block;
+  border-bottom: 1px solid;
+  margin: 1em 0 .5em;
+}
+.resumeEditor ul,.resumeEditor ol{
+  list-style: none;
+}
+.resumeEditor ul> li::before{
+  content: '•';
+  margin-right: .5em;
+}
+.resumeEditor ol {
+  counter-reset: section;
+}
+.resumeEditor ol li::before {
+  counter-increment: section;
+  content: counters(section, ".") " ";
+  margin-right: .5em;
+}
+</style>
+<body>
+
+<div  class="resumeEditor htmlMode">
+<div><h2 id="-">蒲 东</h2>
+<div>相信世界属于那些用行动去追求梦想的人</div>
+<h2 id="-">求职意向</h2>
+</br>
+<h2 id="-">教育经历</h2>
+</br>
+<h2 id="-">技能</h2>
+</br>
+<h2 id="-">项目经验</h2>
+</br>
+<h2 id="-">自我评价</h2>
+</br>
+<h2 id="-">链接</h2>
+<ul>
+<li><a href="https://github.com/frankfang">GitHub</a></li>
+<li><a href="https://www.zhihu.com/people/zhihusucks/pins/posts">我的文章</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
