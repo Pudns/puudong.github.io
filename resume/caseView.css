@@ -1,0 +1,526 @@
+body {
+    background-color: #f0f0f0;
+}
+
+a {
+    font-size: 16px;
+    color: #ff7561;
+}
+
+a:hover {
+    color: #fb5b45;
+    text-decoration: underline;
+}
+
+.cv-box {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cv-box .inner-l {
+    width: 320px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.tem-wrap {
+    width: 900px;
+    height: auto;
+    min-height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0px 15px 15px 15px;
+    background-color: #fff;
+}
+
+.inner-l .list-head {
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    background-color: #ff7561;
+}
+
+.list-head img {
+    vertical-align: sub;
+}
+
+.list-head p {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+
+#industry {
+    padding: 0 20px 20px 20px;
+    background-color: #fff;
+}
+
+#industry>li {
+    width: 100%;
+    line-height: 36px;
+    border-bottom:  1px dashed #ccc;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+#industry>li:nth-child(1) {
+    padding-top: 10px;
+}
+
+#industry>li i {
+    float: right;
+    width: 18px;
+    height: 18px;
+    background-image: url(../../Images/ResumeV2/caselist/arrowicon.png);
+    background-repeat: no-repeat;
+    background-position: -35px -18px;
+    margin-top: 9px;
+}
+
+#industry>li ul {
+    height: 0;
+    overflow: hidden;
+}
+
+#industry>li ul li {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #939393;
+}
+
+#industry>li ul li:hover {
+    color: #555;
+}
+
+#industry>li ul li:last-child{
+    margin-bottom: 6px;
+}
+
+.viwe-head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom:1px solid #ddd;
+}
+
+#apply,.apply {
+    margin-top: 12px;
+}
+
+.tem-wrapresume {
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+#template203_wrap{
+    width:868px;
+    background-color: #fff;
+}
+#template203_wrap .template203_outside{
+    width:100%;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+#template203_header{
+    width:868px;
+    height:189px;
+    background:#313e4e;
+    padding:25px 68px 0 32px;
+    position: relative;
+}
+#template203_header .template203_headleft{
+    overflow:hidden;
+    float:left;
+    width:140px;
+    height:140px;
+}
+#template203_header .template203_headright{
+    padding-left:147px;
+    padding-top: 9px;
+}
+#template203_header .template203_headimg {
+    width: 100%;
+}
+#template203_header .template203_headright .template203_headname{
+    font-size:25px;
+    font-family:'Microsoft YaHei';
+    margin-bottom:9px;
+    min-width:50px;
+    max-height:280px;
+    height:35px;
+    line-height:35px;
+    overflow:hidden;
+    color:#fff;
+    padding-left: 10px;
+}
+#template203_header .template203_headright .template203_headcareer{
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#fff;
+    margin: 0;
+    padding-bottom: 17px;
+    list-style: none;
+    padding-left: 0;
+    width: 588px;
+    height: 25px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+#template203_header .template203_headright .template203_headcareer li {
+    float: left;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei';
+    color: #fff;
+    padding: 0 10px;
+    position: relative;
+}
+#template203_header .template203_headright .template203_headcareer li:after{
+    position: absolute;
+    content: "";
+    border-right: 2px solid #fff;
+    top: 7px;
+    right: 0px;
+    width: 1px;
+    height: 13px;
+}
+#template203_header .template203_headright .template203_headcareer li span{
+    display:inline-block;
+    line-height:28px;
+}
+#template203_header .template203_headright .template203_headinf{
+    width:588px;
+    height:25px;
+    margin-bottom:4px;
+    overflow:hidden;
+}
+#template203_header #teminf_child1 li,#template203_header #teminf_child2 li{
+    float:left;
+    line-height:25px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#fff;
+    /*margin-right:60px;*/
+    padding: 0 10px;
+    position: relative;
+}
+
+#template203_header #teminf_child1 li:after{
+    position: absolute;
+    content: "";
+    border-right: 2px solid #fff;
+    top: 6px;
+    right: 0px;
+    width: 1px;
+    height: 13px;
+}
+#template203_header #teminf_child2 li:after{
+    position: absolute;
+    content: "";
+    border-right: 2px solid #fff;
+    top: 6px;
+    right: 0px;
+    width: 1px;
+    height: 13px;
+}
+
+#template203_header .template203_headright .template203_headinf li span{
+    display:inline-block;
+    line-height:25px;
+}
+.template203_boxwrap{
+    margin-top:28px;
+}
+
+.template203_boxwrap .template203_box{
+    overflow:hidden;
+    display:flex;
+    padding: 0 42px;
+}
+.school .template203_boxleft,.work_wrap .template203_boxleft,
+.plan_wrap .template203_boxleft,.selfass_wrap .template203_boxleft,
+.skill_wrap  .template203_boxleft,.cert_wrap .template203_boxleft,
+.diys_wrap .template203_boxleft {
+    float: left;
+    min-width: 37px;
+    height: 37px;
+    background-image: url(../../ResumeV2/Template/img/tem2barview.png);
+    background-repeat: no-repeat;
+    background-position: -207px -147px;
+    margin-top: 5px;
+}
+
+.work_wrap .template203_boxleft {
+    background-position: -2px -147px;
+}
+.plan_wrap .template203_boxleft {
+    background-position: -43px -147px;
+}
+.selfass_wrap .template203_boxleft {
+    background-position: -84px -147px;
+}
+.skill_wrap  .template203_boxleft {
+    background-position: -166px -147px;
+}
+.cert_wrap .template203_boxleft {
+    background-position: -125px -147px;
+}
+.template203_boxwrap .template203_box .template203_boxright{
+    float:left;
+    margin-left:14px;
+    flex-grow: 9;
+}
+.diys_wrap .template203_boxleft {
+    background-position: -248px -147px;
+}
+.template203_boxwrap .template203_box .template203_boxright .template203_boxrighttop{
+    position: relative;
+    font-size:18px;
+    height:36px;
+    line-height:36px;
+    font-family:'Microsoft YaHei';
+    color:#313e4e;
+    border-bottom: 3px solid #313e4e;
+    font-weight: 600;
+}
+
+.template203_boxrightcon .template203_boxrighttitle{
+    overflow:hidden
+}
+.template203_boxrightcon .template203_boxrighttitle li{
+    float:left;
+    margin-right:12px;
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+    line-height: 21px;
+    font-weight: 600;
+}
+.template203_boxrightcon .template203_boxrightnr{
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+    margin-top:2px;
+}
+.template203_boxrightcon .template203_boxrightnr p{
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+    margin-top:2px;
+}
+
+.plan_wrap_child p , .selfass_wrap_child p , .diys_wrap_child p{
+    font-size:14px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+    margin-top:2px;
+}
+
+.template203_boxrightcon .template203_boxrightconlist {
+    font-size:14px;
+    line-height:20px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+}
+
+.template203_boxrightcon .template203_boxrightconlist p{
+    font-size:14px;
+    line-height:20px;
+    font-family:'Microsoft YaHei';
+    color:#333;
+}
+
+.template203_boxwrap .template203_boxtop {
+    position: relative;
+    font-size: 18px;
+    height: 37px;
+    line-height: 37px;
+    font-family: 'Microsoft YaHei';
+    color: #313e4e;
+    border-bottom: 3px solid #313e4e;
+    font-weight: 600;
+}
+.template203_boxwrap .template203_boxtop span{
+    display:inline-block;
+    float:left;
+    font-size:16px;
+    font-family:'Microsoft YaHei';
+    line-height:37px;
+    color:#313e4e;
+}
+.template203_boxwrap .template203_boxtop .template203_boxdia{
+    width:14px;
+    height:16px;
+    margin-right:10px;
+    background:#c7a790;
+    margin-top: 10px;
+}
+
+.work_wrap_child1 {
+    margin-bottom: 5px;
+}
+
+
+/*---右侧文章----*/
+ .article {
+     margin-top: 20px;
+     width: 900px;
+     margin-bottom: 50px;
+ }
+
+.article .hot-article,
+.article .case-article{
+    padding: 0 16px;
+    width: 440px;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.article-head {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.hot-article a,
+.case-article a{
+    cursor: default;
+    font-size: 16px;
+    color: #636363;
+}
+
+.hot-article ol,
+.case-article ol{
+    margin-left: 17px;
+    margin-top: 5px;
+    list-style: decimal;
+}
+
+.hot-article ol li,
+.case-article ol li{
+    font-size: 14px;
+    color: #a0a0a0;
+}
+.hot-article ol li a,
+.case-article ol li a{
+    font-size: 14px;
+    color: #a0a0a0;
+
+}
+
+.adv {
+    width: 320px;
+    height: 170px;
+    margin-top: 20px;
+    border: 10px solid #fff;
+}
+
+.adv a {
+    display: block;
+    background-image: url("../../Images/ResumeV2/adv.png");
+    background-size: 320px 170px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.adv a:hover{
+    opacity: 0.8;
+}
+
+.lx-toolbar {
+    width: 35px;
+    height: 100px;
+    position: fixed;
+    right: 0;
+    bottom:45px;
+    z-index: 9999;
+}
+.resumeGoTop,.resumeFAQ,.resumeQRcode {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    background-color: #7a6e6e;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.2;
+    padding-top: 3px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    border-radius: 3px 0px 0px 3px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.resumeGoTop p, .resumeFAQ p {
+    display: none;
+    width: 62px;
+    height: 35px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    position: absolute;
+    z-index: 1;
+    right: 34px;
+    top: 0px;
+    background-color: rgb(122, 110, 110);
+    border-radius: 3px 0px 0px 3px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.resumeGoTop:hover,
+.resumeFAQ:hover,
+.resumeFAQ p:hover,
+.resumeGoTop p:hover,
+.resumeQRcode:hover {
+    background-color: #ff7561;
+}
+.resumeGoTop:hover p,
+.resumeFAQ:hover p{
+    display: block;
+}
+.resumeQRcode {
+    background-image: url("../../Images/ResumeV2/editPage/resumeQRcode.png");
+}
+.resumeQRcode .wechat {
+    display: none;
+    width: 140px;
+    height: 180px;
+    position: absolute;
+    right: 34px;
+    bottom: 0px;
+    box-shadow: 0px 0px 5px #7a6e6e;
+    background-color: #fff;
+}
+.resumeQRcode:hover .wechat{
+    display: block;
+}
+.resumeQRcode .wechat span {
+    display: inline-block;
+    width: 86%;
+    text-align: left;
+    font-family: "Microsoft YaHei";
+    color: #555;
+}
+#QRcode2img {
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+}
+
+
+
