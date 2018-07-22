@@ -73,7 +73,6 @@ a:hover {
     float: right;
     width: 18px;
     height: 18px;
-    background-image: url(../../Images/ResumeV2/caselist/arrowicon.png);
     background-repeat: no-repeat;
     background-position: -35px -18px;
     margin-top: 9px;
@@ -252,7 +251,6 @@ a:hover {
     float: left;
     min-width: 37px;
     height: 37px;
-    background-image: url(../../ResumeV2/Template/img/tem2barview.png);
     background-repeat: no-repeat;
     background-position: -207px -147px;
     margin-top: 5px;
